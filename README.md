@@ -5,7 +5,6 @@
 
 **BLW EMS** is a web-based Employee Management System designed for **Banaras Locomotive Works (BLW)**, aimed at managing employee details, departments, and salary information efficiently. This project was developed as part of an internship at **BLW, Varanasi** under the EDP (Electronic Data Processing) department.
 
-> ⚠️ **Note:** The project is partially completed. Currently, only the **Admin panel** is functional. User login and employee dashboard features are yet to be developed. Contributions are welcome!
 
 ---
 
@@ -40,20 +39,11 @@ The admin panel allows managing employees, departments, and salaries.
 
 ---
 
-## Pending Features
-
-* User login (employee login)
-* Employee dashboard
-
-> Contributions are welcome to help complete these features.
-
----
-
 ## Technology Stack
 
 * **Frontend:** HTML, CSS, JavaScript
-* **Backend:** Node.js
-* **Database:** MySQL
+* **Backend:** Node.js (Express.js)
+* **Database:** MongoDB
 
 ---
 
@@ -93,17 +83,26 @@ The admin panel allows managing employees, departments, and salaries.
    git clone https://github.com/yourusername/blw-ems.git
    ```
 
-2. Import the database (`BLW_EMS.sql`) into MySQL.
+2. Install dependencies:
 
-3. Update database configuration in the backend.
+   ```bash
+   cd blw-ems
+   npm install
+   ```
 
-4. Run the project on a local server (e.g., XAMPP/WAMP).
+3. Configure the MongoDB connection in your `.env` or config file.
+
+4. Start the server:
+
+   ```bash
+   npm start
+   ```
 
 5. Access the admin panel using credentials:
 
    ```text
    Admin Username: admin
-   Admin Password: admin123
+   Admin Password: admin
    ```
 
 ---
@@ -139,5 +138,6 @@ This project is licensed under the **MIT License**.
 **Certificate:** Internship at Banaras Locomotive Works, Varanasi
 
 ---
+
 
 
