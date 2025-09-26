@@ -1,10 +1,11 @@
+
 ---
 
 # BLW EMS - Banaras Locomotive Works Employee Management System
 
 **BLW EMS** is a web-based Employee Management System designed for **Banaras Locomotive Works (BLW)**, aimed at managing employee details, departments, and salary information efficiently. This project was developed as part of an internship at **BLW, Varanasi** under the EDP (Electronic Data Processing) department.
 
-> ⚠️ **Note:** The project is partially completed. Currently, only the **Admin part** is functional. User login and user dashboard features are yet to be developed. Contributions are welcome!
+> ⚠️ **Note:** The project is partially completed. Currently, only the **Admin panel** is functional. User login and employee dashboard features are yet to be developed. Contributions are welcome!
 
 ---
 
@@ -23,14 +24,14 @@ The admin panel allows managing employees, departments, and salaries.
 
 * Search employees by department
 * Add new employee
-* View, Edit employee details
+* View and edit employee details
 * View employee salary details
 
 **Department Management**
 
 * Search departments by name
 * Add new department
-* Edit and Delete existing departments
+* Edit and delete existing departments
 
 **Salary Management**
 
@@ -44,56 +45,43 @@ The admin panel allows managing employees, departments, and salaries.
 * User login (employee login)
 * Employee dashboard
 
-> We welcome contributors to help complete these features.
+> Contributions are welcome to help complete these features.
 
 ---
 
 ## Technology Stack
 
-* Frontend: HTML, CSS, JavaScript
-* Backend: PHP (or your backend language)
-* Database: MySQL
+* **Frontend:** HTML, CSS, JavaScript
+* **Backend:** Node.js
+* **Database:** MySQL
 
 ---
 
 ## Screenshots
 
-## Screenshots
-
 ### Login Page
+
 ![Login](screenshots/Login.png)
 
 ### Dashboard
+
 ![Dashboard](screenshots/Dashboard.png)
 
 ### Employee Management
+
 ![Employee](screenshots/Employee.png)
 ![Add Employee](screenshots/Add_Employee.png)
 ![View Employee](screenshots/View_Employee.png)
 ![Edit Employee](screenshots/Edit_Employee.png)
 
 ### Department Management
+
 ![Department](screenshots/Department.png)
 ![Add Department](screenshots/Add_Department.png)
 
 ### Salary Management
+
 ![Salary](screenshots/Salary.png)
-
-
-**Employee Management**
-
-* Add, Edit, View Employee
-* Search by Department
-
-**Department Management**
-
-* Add, Edit, Delete Department
-* Search by Department
-
-**Salary Management**
-
-* Add salary with department and employee selection
-* Specify basic salary, allowances, deductions, pay date
 
 ---
 
@@ -104,9 +92,13 @@ The admin panel allows managing employees, departments, and salaries.
    ```bash
    git clone https://github.com/yourusername/blw-ems.git
    ```
+
 2. Import the database (`BLW_EMS.sql`) into MySQL.
+
 3. Update database configuration in the backend.
+
 4. Run the project on a local server (e.g., XAMPP/WAMP).
+
 5. Access the admin panel using credentials:
 
    ```text
@@ -118,13 +110,13 @@ The admin panel allows managing employees, departments, and salaries.
 
 ## Contributing
 
-We welcome contributions to make this project complete:
+We welcome contributions to enhance this project:
 
 * Implement user login and employee dashboard
-* Enhance UI/UX of admin panel
+* Enhance UI/UX of the admin panel
 * Add additional reports or analytics
 
-Steps to contribute:
+**Steps to contribute:**
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature-name`)
@@ -136,7 +128,7 @@ Steps to contribute:
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the **MIT License**.
 
 ---
 
@@ -147,4 +139,5 @@ This project is licensed under the MIT License.
 **Certificate:** Internship at Banaras Locomotive Works, Varanasi
 
 ---
+
 
